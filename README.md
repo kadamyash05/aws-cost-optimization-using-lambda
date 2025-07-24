@@ -21,8 +21,10 @@ This setup creates a Lambda function that automatically deletes EBS snapshots if
 3. Function name: `cost-optimization-lambda`
 4. Runtime: Python 3.x
 5. Permissions: Select **Create a new role with basic Lambda permissions**
-6. After creation, open the function and replace the default code with the content from your `delete_orphan_snapshots.py` file
-7. Click **Deploy**
+6. After creation, open the function and replace the default code with the content from your `ebs_stale_snapshosts.py` file
+7. Click **Deploy and then Test** 
+
+<img width="1514" height="598" alt="image" src="https://github.com/user-attachments/assets/d53303cd-e192-43ff-b692-434258dec207" />
 
 ---
 
